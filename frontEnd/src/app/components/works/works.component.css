@@ -1,0 +1,42 @@
+.container-fluid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, 300px);
+    gap: 20px;
+    place-content: center;
+    margin-top: 20px;
+}
+.works{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.685);
+    transition: transform .4s;
+
+}
+
+.works img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.works p{
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    transition: background-color .2s;
+}
+.works:hover{
+    transform: scale(1.1);
+}
+.works:hover p{
+ 
+   background-color: var(--primary-color);
+}

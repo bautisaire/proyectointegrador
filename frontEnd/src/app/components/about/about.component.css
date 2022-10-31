@@ -1,0 +1,38 @@
+*{
+    color: #000;
+}
+.profile{
+    margin: 20px 0;
+}
+
+.img-profile{
+    width:  120px;
+    height: 120px;
+    border: 3px solid rgb(58, 1, 74);;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    background-image: url("../../../assets/images/profilePicture.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    margin-top: 20px;
+}
+
+.title p{
+    margin-left: 8px;
+    
+}
+.aboutMe{
+    margin-left: 4px;
+    
+}
+.aboutMe h3{
+    font-size: 32px;
+    text-align: center;
+}
+.aboutMe p{
+    margin-left: 8px;
+}
